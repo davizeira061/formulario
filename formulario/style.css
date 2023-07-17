@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(76, 190, 254), rgb(37, 47, 97));
+}
+
+#logo {
+    -webkit-text-stroke-width: 1px;
+    /* largura da borda */
+    -webkit-text-stroke-color: white;
+    /* cor da borda */
+    color: white;
+    text-align: center;
+    position: absolute;
+    font-size: 50px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.esqueceu {
+    color: #4cbefe;
+    text-decoration: none;
+    position: relative;
+    font-size: 15px;
+}
+
+.cadastro {
+    background-color: #36a420;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.voltar {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: relative;
+    font-size: 15px;
+}
+
+.boxLogin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    width: 25%;
+    color: white;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    width: 25%;
+    color: white;
+}
+
+/*fieldset {
+    border: 5px solid rgb(45, 116, 175);
+}*/
+
+legend {
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.inputBox {
+    position: relative;
+}
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.labelInput {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputUser:focus~.labelInput,
+.inputUser:valid~.labelInput {
+    top: -20px;
+    font-size: 12px;
+    color: rgb(45, 116, 175);
+}
+
+#data_nascimento {
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    font-size: 15px;
+}
+
+#submitEnviar {
+    background-color: #4cbefe;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#submitCadastro {
+    background-color: #36a420;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+button {
+    background-image: linear-gradient(to right, rgb(0, 105, 153), rgb(63, 170, 219));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+}
