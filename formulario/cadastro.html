@@ -32,63 +32,64 @@
     <div class="box">
         <form action="">
             <!--<fieldset>-->
-                <legend><b>Cadastro</b></legend>
-                <br><br>
-                <div class="inputBox">
-                    <input type="text" nome="nome" id="nome" class="inputUser" required>
-                    <label for="nome" class="labelInput">Nome completo</label>
-                </div>
-                <br><br>
-                <div class="inputBox">
-                    <input type="text" nome="email" id="email" class="inputUser" required>
-                    <label for="email" class="labelInput">E-mail</label>
-                </div>
-                <br><br>
-                <div class="inputBox">
-                    <input type="text" nome="cpf" id="cpf" class="inputUser" oninput="formatarCPF(this)" maxlength="14"
-                        required>
-                    <label for="cpf" class="labelInput">CPF</label>
-                </div>
-                <br><br>
-                <div class="inputBox">
-                    <input type="tel" nome="telefone" id="telefone" class="inputUser" oninput="formatartelefone(this)"
-                        maxlength="11" required>
-                    <label for="telefone" class="labelInput">Telefone</label>
-                </div>
+            <legend><b>Cadastro</b></legend>
+            <br><br>
+            <div class="inputBox">
+                <input type="text" nome="nome" id="nome" class="inputUser" required>
+                <label for="nome" class="labelInput">Nome completo</label>
+            </div>
+            <br><br>
+            <div class="inputBox">
+                <input type="text" nome="email" id="email" class="inputUser" required>
+                <label for="email" class="labelInput">E-mail</label>
+            </div>
+            <br><br>
+            <div class="inputBox">
+                <input type="text" nome="cpf" id="cpf" class="inputUser" oninput="formatarCPF(this)" maxlength="14"
+                    required>
+                <label for="cpf" class="labelInput">CPF</label>
+            </div>
+            <br><br>
+            <div class="inputBox">
+                <input type="tel" nome="telefone" id="telefone" class="inputUser" oninput="formatartelefone(this)"
+                    maxlength="11" required>
+                <label for="telefone" class="labelInput">Telefone</label>
+            </div>
 
-                <br><br>
-                <p>Sexo:</p>
-
+            <br><br>
+            <p>Sexo:</p>
+            <div id="sexo">
                 <input type="radio" id="feminino" name="genero" value="feminino" required>
                 <label for="feminino">Feminino</label>
                 <input type="radio" id="masculino" name="genero" value="masculino" required>
                 <label for="masculino">Masculino</label>
                 <input type="radio" id="outros" name="genero" value="outros" required>
                 <label for="outros">Outros</label>
-                <br><br>
+            </div>
+            <br><br>
 
-                <label for="data_nascimento"><b>Data de Nascimento:</b></label>
-                <input type="date" nome="data_nascimento" id="data_nascimento" required>
+            <label for="data_nascimento"><b>Data de Nascimento:</b></label>
+            <input type="date" nome="data_nascimento" id="data_nascimento" required>
 
-                <br><br>
-                <div class="inputBox">
-                    <input type="text" nome="cidade" id="cidade" class="inputUser" required>
-                    <label for="cidade" class="labelInput">Cidade</label>
-                </div>
-                <br><br>
-                <div class="inputBox">
-                    <input type="text" nome="estado" id="estado" class="inputUser" required>
-                    <label for="estado" class="labelInput">Estado</label>
-                </div>
-                <br><br>
-                <div class="inputBox">
-                    <input type="text" nome="endereco" id="endereco" class="inputUser" required>
-                    <label for="endereco" class="labelInput">Endereço</label>
-                </div>
-                <br><br>
-                <input type="submit" name="" id="submitCadastro" value="Cadastrar">
-                <br><br>
-                <center><a href="index.html" class="voltar">Voltar</a></center>
+            <br><br>
+            <div class="inputBox">
+                <input type="text" nome="cidade" id="cidade" class="inputUser" required>
+                <label for="cidade" class="labelInput">Cidade</label>
+            </div>
+            <br><br>
+            <div class="inputBox">
+                <input type="text" nome="estado" id="estado" class="inputUser" required>
+                <label for="estado" class="labelInput">Estado</label>
+            </div>
+            <br><br>
+            <div class="inputBox">
+                <input type="text" nome="endereco" id="endereco" class="inputUser" required>
+                <label for="endereco" class="labelInput">Endereço</label>
+            </div>
+            <br><br>
+            <input type="submit" name="" id="submitCadastro" value="Cadastrar">
+            <br><br>
+            <center><a href="index.html" class="voltar">Voltar</a></center>
             <!--</fieldset>-->
         </form>
     </div>

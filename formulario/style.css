@@ -154,16 +154,40 @@ button {
         padding: 8px;
     }
 
-    .boxLogin{
+    .boxLogin {
         top: 60%;
+    }
+
+    .box {
+        top:70%
     }
 }
 
 @media (max-height: 600px) {
-    #logo{
+    #logo {
         opacity: 0%;
     }
-    .boxLogin{
+
+    .boxLogin {
         width: 60%;
+    }
+    
+    .box{
+        top:100%
+    }
+
+    #data_nascimento{
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    label{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 806px){
+    #sexo{
+        display: grid;
     }
 }
