@@ -147,3 +147,23 @@ button {
     cursor: pointer;
     border-radius: 15px;
 }
+
+@media (max-width: 424px) {
+    .cadastro {
+        font-size: 8px;
+        padding: 8px;
+    }
+
+    .boxLogin{
+        top: 60%;
+    }
+}
+
+@media (max-height: 600px) {
+    #logo{
+        opacity: 0%;
+    }
+    .boxLogin{
+        width: 60%;
+    }
+}
